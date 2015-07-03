@@ -9,5 +9,10 @@ using namespace cv;
 
 
 extern "C" {
-	DLLExport void templateMatching(std::string tmp_img_filename, std::string search_img_filename, double thresh, int& x, int& y);
+	DLLExport void templateMatching(unsigned char* const data, int width, int height, int templatenumber, double thresh, int& x, int& y);
+
+	DLLExport void openWindow(const char* windowName);
+
+	DLLExport void closeWindow(const char* windowName);
+
 }
