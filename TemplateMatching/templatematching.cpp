@@ -37,8 +37,8 @@ DLLExport void templateMatching(unsigned char* const data, int width, int height
 		cv::cvtColor(draw_image, draw_image, CV_GRAY2BGR);
 		cv::rectangle(draw_image, roi_rect, cv::Scalar(0,0,255), 3);
 
-		x = max_pt.x + tmp_img.rows/2;
-		y = max_pt.y + tmp_img.cols/2;
+		x = max_pt.x + tmp_img.cols/2;
+		y = max_pt.y + tmp_img.rows/2;
 	}else{
 		//閾値以下ならエラー値-1を入れておく
 		x = -1;

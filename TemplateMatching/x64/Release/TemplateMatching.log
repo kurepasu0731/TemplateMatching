@@ -1,4 +1,4 @@
-﻿2015/07/03 20:01:11 にビルドを開始しました。
+﻿2015/07/08 18:26:03 にビルドを開始しました。
      1>ノード 2 上のプロジェクト "C:\Users\PC-4\Documents\GitHub\TemplateMatching\TemplateMatching\TemplateMatching.vcxproj" (Build ターゲット)。
      1>InitializeBuildStatus:
          "AlwaysCreate" が指定されたため "x64\Release\TemplateMatching.unsuccessfulbuild" を作成しています。
@@ -18,4 +18,4 @@
 
 ビルドに成功しました。
 
-経過時間 00:00:04.73
+経過時間 00:00:02.17
