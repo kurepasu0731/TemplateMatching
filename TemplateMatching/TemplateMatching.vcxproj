@@ -22,6 +22,7 @@
     <ProjectGuid>{DF7C4397-B159-4805-A191-A0B63A944EBD}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>TemplateMatching</RootNamespace>
+    <ProjectName>TemplateMatchingManager</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -153,10 +154,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="templatematching.cpp" />
+    <ClCompile Include="templatematchingManager.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="templatematching.h" />
+    <ClInclude Include="templatematchingManager.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
